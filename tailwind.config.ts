@@ -14,8 +14,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        heading: ["Jost", "sans-serif"],
-        body: ["Poppins", "sans-serif"],
+        heading: ["system-ui", "-apple-system", "sans-serif"],
+        body: ["system-ui", "-apple-system", "sans-serif"],
       },
       colors: {
         border: "hsl(var(--border))",
