@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 import { Heart, BookOpen, Users, Trophy } from "lucide-react";
 import heroImage from "@/assets/hero-children.jpg";
-import galleryImg1 from "@/assets/gallery-1.jpg";
-import galleryImg2 from "@/assets/gallery-2.jpg";
-import galleryImg3 from "@/assets/gallery-3.jpg";
+import galleryImg1 from "@/assets/gallery-7.jpg";
+import galleryImg2 from "@/assets/gallery-8.jpg";
+import galleryImg3 from "@/assets/gallery-9.jpg";
 
 const stats = [
   { icon: Users, value: "500+", label: "Children Supported" },
@@ -26,7 +26,7 @@ const Index = () => (
           At Benevolence is Love, we break the cycle of poverty through education and sports, one empowered child at a time.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Link to="/contact" className="px-8 py-3 rounded-lg bg-primary text-primary-foreground font-semibold hover:opacity-90 transition-opacity text-lg">
+          <Link to="/programs" className="px-8 py-3 rounded-lg bg-primary text-primary-foreground font-semibold hover:opacity-90 transition-opacity text-lg">
             Get Involved
           </Link>
           <Link to="/about" className="px-8 py-3 rounded-lg bg-primary-foreground/20 text-primary-foreground font-semibold backdrop-blur-sm hover:bg-primary-foreground/30 transition-colors text-lg border border-primary-foreground/30">
@@ -104,9 +104,9 @@ const Index = () => (
         <p className="text-primary-foreground/80 text-lg max-w-2xl mx-auto mb-8">
           Every contribution matters. Together, we can ensure every child has access to education and the chance to thrive.
         </p>
-        <Link to="/contact" className="inline-flex px-8 py-3 rounded-lg bg-primary-foreground text-foreground font-semibold hover:opacity-90 transition-opacity text-lg">
-          Contact Us
-        </Link>
+        <a href="https://donate.benevolenceislove.org/checkout/benevolenceisloved?rid=28330123&is_free_trial=true" target="_blank" rel="noopener noreferrer" className="inline-flex px-8 py-3 rounded-lg bg-primary-foreground text-foreground font-semibold hover:opacity-90 transition-opacity text-lg">
+          Donate Now
+        </a>
       </div>
     </section>
   </div>

@@ -39,12 +39,14 @@ const Navbar = () => {
               {link.label}
             </Link>
           ))}
-          <Link
-            to="/contact"
+          <a
+            href="https://donate.benevolenceislove.org/membership"
+            target="_blank"
+            rel="noopener noreferrer"
             className="ml-2 px-4 py-2 rounded-lg bg-primary text-primary-foreground text-sm font-semibold hover:opacity-90 transition-opacity"
           >
             Donate
-          </Link>
+          </a>
         </div>
 
         {/* Mobile toggle */}
@@ -75,13 +77,15 @@ const Navbar = () => {
                 {link.label}
               </Link>
             ))}
-            <Link
-              to="/contact"
+            <a
+              href="https://donate.benevolenceislove.org/membership"
+              target="_blank"
+              rel="noopener noreferrer"
               onClick={() => setOpen(false)}
               className="mt-2 px-4 py-2 rounded-lg bg-primary text-primary-foreground text-sm font-semibold text-center hover:opacity-90 transition-opacity"
             >
               Donate
-            </Link>
+            </a>
           </div>
         </div>
       )}
