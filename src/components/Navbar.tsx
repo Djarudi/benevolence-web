@@ -31,10 +31,10 @@ const Navbar = () => {
             <Link
               key={link.to}
               to={link.to}
-              className={`px-3 py-2 rounded-md text-sm bg-primary font-medium transition-colors ${
+              className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
                 pathname === link.to
-                  ? "text-primary bg-primary"
-                  : "text-muted-foreground hover:text-foreground hover:bg-muted"
+                  ? "text-primary bg-primary/5"
+                  : "text-muted-foreground bg-primary hover:text-foreground hover:bg-muted"
               }`}
             >
               {link.label}
