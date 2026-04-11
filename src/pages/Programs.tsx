@@ -1,8 +1,8 @@
 import { BookOpen, Dumbbell, Users, Monitor } from "lucide-react";
-import gallery1 from "@/assets/gallery-1.jpg";
+import gallery1 from "@/assets/gallery-7.jpg";
 import gallery4 from "@/assets/gallery-9.jpg";
-import gallery6 from "@/assets/gallery-6.jpg";
-import gallery7 from "@/assets/gallery-7.jpg";
+import gallery6 from "@/assets/gallery-13.jpg";
+import gallery7 from "@/assets/gallery-20.jpg";
 
 const programs = [
   {
