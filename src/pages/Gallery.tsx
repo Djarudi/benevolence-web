@@ -15,12 +15,12 @@ import gallery12 from "@/assets/gallery-12.jpg";
 import gallery13 from "@/assets/gallery-13.jpg";
 
 const images = [
-  { src: gallery1, alt: "Children in classroom" },
-  { src: gallery2, alt: "Children reading under a tree" },
-  { src: gallery3, alt: "Award ceremony" },
-  { src: gallery4, alt: "Children on playground" },
-  { src: gallery5, alt: "Students walking together" },
-  { src: gallery6, alt: "Community gathering" },
+  // { src: gallery1, alt: "Children in classroom" },
+  // { src: gallery2, alt: "Children reading under a tree" },
+  // { src: gallery3, alt: "Award ceremony" },
+  // { src: gallery4, alt: "Children on playground" },
+  // { src: gallery5, alt: "Students walking together" },
+  // { src: gallery6, alt: "Community gathering" },
   { src: gallery7, alt: "Children with school supplies at blackboard" },
   { src: gallery8, alt: "Child graduation ceremony" },
   { src: gallery9, alt: "Children playing sports" },
