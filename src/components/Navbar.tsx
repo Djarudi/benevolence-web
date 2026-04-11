@@ -63,7 +63,7 @@ const Navbar = () => {
                 onClick={() => setOpen(false)}
                 className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
                   pathname === link.to
-                    ? "text-primary bg-primary/10"
+                    ? "text-foreground bg-primary"
                     : "text-muted-foreground hover:text-foreground hover:bg-muted"
                 }`}
               >
