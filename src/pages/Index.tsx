@@ -23,7 +23,7 @@ const Index = () => (
         alt="Community group photo with children"
         width={1920}
         height={1080}
-        className="absolute inset-0 w-full h-full object-cover brightness-75 saturate-75 contrast-90"
+        className="absolute inset-0 w-full h-full object-cover brightness-100 saturate-75 contrast-90"
       />
 
       {/* Softer Overlay */}
@@ -58,7 +58,7 @@ const Index = () => (
       <div className="absolute bottom-[-60px] left-0 right-0 px-4 z-20">
         <div className="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-4 bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-6 shadow-xl">
           {stats.map((stat) => (
-            <div key={stat.label} className="text-center">
+            <div key={stat.label} className="text-center  border-2 border-primary/10">
               <stat.icon className="mx-auto mb-2 text-white" size={28} />
               <p className="text-2xl font-bold text-white">{stat.value}</p>
               <p className="text-white/80 text-sm">{stat.label}</p>
