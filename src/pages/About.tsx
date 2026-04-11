@@ -1,11 +1,11 @@
 import { Target, Eye, Heart } from "lucide-react";
-import aboutHero from "@/assets/about-hero.jpg";
+import gallery10 from "@/assets/gallery-10.jpg";
 
 const About = () => (
   <div>
     {/* Hero */}
     <section className="relative h-[50vh] min-h-[350px] flex items-center justify-center overflow-hidden">
-      <img src={aboutHero} alt="Children raising hands in classroom" width={1920} height={800} className="absolute inset-0 w-full h-full object-cover" />
+      <img src={gallery10} alt="Group photo with children" width={1920} height={800} className="absolute inset-0 w-full h-full object-cover" />
       <div className="absolute inset-0 hero-gradient" />
       <div className="relative z-10 text-center px-4">
         <h1 className="font-heading text-4xl md:text-5xl font-bold text-primary-foreground">About Us</h1>
