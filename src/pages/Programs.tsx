@@ -1,8 +1,8 @@
 import { BookOpen, Dumbbell, Users, Monitor } from "lucide-react";
-import educationImg from "@/assets/programs-education.jpg";
-import sportsImg from "@/assets/programs-sports.jpg";
-import workshopImg from "@/assets/programs-workshop.jpg";
-import ictImg from "@/assets/gallery-7.jpg";
+import gallery1 from "@/assets/gallery-1.jpg";
+import gallery4 from "@/assets/gallery-9.jpg";
+import gallery6 from "@/assets/gallery-6.jpg";
+import gallery7 from "@/assets/gallery-7.jpg";
 
 const programs = [
   {
@@ -10,7 +10,7 @@ const programs = [
     title: "Education Support",
     price: "$5",
     description: "We cover school fees and provide essential school materials to underprivileged children, ensuring every child has access to the tools of learning.",
-    image: educationImg,
+    image: gallery1,
     donateLabel: "Support",
     donateUrl: "https://donate.benevolenceislove.org/checkout/benevolenceisloved?rid=28329989",
   },
@@ -19,7 +19,7 @@ const programs = [
     title: "Sports & Talent Development",
     price: "$8",
     description: "Our structured sports programs help children develop confidence, discipline, teamwork, and leadership skills while discovering their talents.",
-    image: sportsImg,
+    image: gallery4,
     donateLabel: "Get Involved",
     donateUrl: "https://donate.benevolenceislove.org/checkout/benevolenceisloved?rid=28330036",
   },
@@ -28,7 +28,7 @@ const programs = [
     title: "Parent Workshops",
     price: "$2",
     description: "We extend support to parents through workshops, ensuring a holistic approach to empowerment and community development.",
-    image: workshopImg,
+    image: gallery6,
     donateLabel: "Donate",
     donateUrl: "https://donate.benevolenceislove.org/checkout/benevolenceisloved?rid=28330088",
   },
@@ -37,7 +37,7 @@ const programs = [
     title: "ICT and Electronics",
     price: "$10",
     description: "We introduce children to robotics, electronics, and coding, equipping them with future-ready digital skills and fostering innovation and creativity.",
-    image: ictImg,
+    image: gallery7,
     donateLabel: "Buy Us Tools",
     donateUrl: "https://donate.benevolenceislove.org/checkout/benevolenceisloved?rid=28330108",
   },

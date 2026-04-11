@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Heart, BookOpen, Users, Trophy } from "lucide-react";
-import heroImage from "@/assets/hero-children.jpg";
+import gallery13 from "@/assets/gallery-13.jpg";
 import galleryImg1 from "@/assets/gallery-7.jpg";
 import galleryImg2 from "@/assets/gallery-8.jpg";
 import galleryImg3 from "@/assets/gallery-9.jpg";
@@ -16,7 +16,7 @@ const Index = () => (
   <div>
     {/* Hero */}
     <section className="relative h-[90vh] min-h-[600px] flex items-center justify-center overflow-hidden">
-      <img src={heroImage} alt="Children learning together" width={1920} height={1080} className="absolute inset-0 w-full h-full object-cover" />
+      <img src={gallery13} alt="Community group photo with children" width={1920} height={1080} className="absolute inset-0 w-full h-full object-cover" />
       <div className="absolute inset-0 hero-gradient" />
       <div className="relative z-10 text-center px-4 max-w-3xl animate-fade-up">
         <h1 className="font-heading text-4xl md:text-6xl font-bold text-primary-foreground mb-6 leading-tight text-balance">
