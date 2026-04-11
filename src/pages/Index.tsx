@@ -41,7 +41,7 @@ const Index = () => (
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link
             to="/programs"
-            className="px-8 py-3 rounded-lg bg-primary text-primary-foreground font-semibold hover:opacity-90 transition-opacity text-lg"
+            className="px-8 py-3 rounded-lg bg-primary text-primary-foreground font-semibold hover:opacity-95 transition-opacity text-lg"
           >
             Get Involved
           </Link>
@@ -58,7 +58,7 @@ const Index = () => (
       <div className="absolute bottom-[-60px] left-0 right-0 px-4 z-20">
         <div className="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-4 bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-6 shadow-xl">
           {stats.map((stat) => (
-            <div key={stat.label} className="text-center  border-2 border-primary/10">
+            <div key={stat.label} className="text-center">
               <stat.icon className="mx-auto mb-2 text-white" size={28} />
               <p className="text-2xl font-bold text-white">{stat.value}</p>
               <p className="text-white/80 text-sm">{stat.label}</p>
@@ -69,7 +69,7 @@ const Index = () => (
     </section>
 
     {/* Stats Section (Original) */}
-    <section className="py-16 bg-card mt-20">
+    <section className="py-16 bg-card mt-20 border-2 border-primary/10">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
           {stats.map((stat) => (
