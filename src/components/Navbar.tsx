@@ -10,6 +10,7 @@ const navLinks = [
   { to: "/gallery", label: "Gallery" },
   { to: "/team", label: "Team" },
   { to: "/contact", label: "Contact" },
+  { to: "/donate", label: "Donate" },
 ];
 
 const Navbar = () => {
@@ -39,14 +40,6 @@ const Navbar = () => {
               {link.label}
             </Link>
           ))}
-          <a
-            href="https://donate.benevolenceislove.org/membership"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="ml-2 px-4 py-2 rounded-lg bg-primary text-primary-foreground text-sm font-semibold hover:opacity-90 transition-opacity"
-          >
-            Donate
-          </a>
         </div>
 
         {/* Mobile toggle */}
@@ -77,15 +70,6 @@ const Navbar = () => {
                 {link.label}
               </Link>
             ))}
-            <a
-              href="https://donate.benevolenceislove.org/membership"
-              target="_blank"
-              rel="noopener noreferrer"
-              onClick={() => setOpen(false)}
-              className="mt-2 px-4 py-2 rounded-lg bg-primary text-primary-foreground text-sm font-semibold text-center hover:opacity-90 transition-opacity"
-            >
-              Donate
-            </a>
           </div>
         </div>
       )}
