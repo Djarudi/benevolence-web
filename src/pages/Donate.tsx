@@ -9,7 +9,7 @@ const programs = [
       "We cover school fees and provide essential school materials to underprivileged children, ensuring every child has access to the tools of learning.",
     donateLabel: "Support Education",
     donateUrl:
-      "https://donate.benevolenceislove.org/checkout/benevolenceisloved?rid=28329989",
+      "https://donate.benevolenceislove.org/checkout/benevolenceislove?rid=28329989",
   },
   {
     icon: Dumbbell,
@@ -19,7 +19,7 @@ const programs = [
       "Our structured sports programs help children develop confidence, discipline, teamwork, and leadership skills while discovering their talents.",
     donateLabel: "Get Involved",
     donateUrl:
-      "https://donate.benevolenceislove.org/checkout/benevolenceisloved?rid=28330036",
+      "https://donate.benevolenceislove.org/checkout/benevolenceislove?rid=28330036",
   },
   {
     icon: Users,
@@ -29,7 +29,7 @@ const programs = [
       "We extend support to parents through workshops, ensuring a holistic approach to empowerment and community development.",
     donateLabel: "Donate Now",
     donateUrl:
-      "https://donate.benevolenceislove.org/checkout/benevolenceisloved?rid=28330088",
+      "https://donate.benevolenceislove.org/checkout/benevolenceislove?rid=28330088",
   },
   {
     icon: Monitor,
@@ -39,7 +39,7 @@ const programs = [
       "We introduce children to robotics, electronics, and coding, equipping them with future-ready digital skills and fostering innovation and creativity.",
     donateLabel: "Buy Us Tools",
     donateUrl:
-      "https://donate.benevolenceislove.org/checkout/benevolenceisloved?rid=28330108",
+      "https://donate.benevolenceislove.org/checkout/benevolenceislove?rid=28330108",
   },
 ];
 
@@ -103,7 +103,7 @@ const Donate = () => (
             where it's needed most.
           </p>
           <a
-            href="https://donate.benevolenceislove.org/checkout/benevolenceisloved?rid=28330123&is_free_trial=true"
+            href="https://donate.benevolenceislove.org/checkout/benevolenceislove?rid=28330123&is_free_trial=true"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-3 rounded-lg bg-primary text-primary-foreground font-semibold hover:opacity-90 transition-opacity"
