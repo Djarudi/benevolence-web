@@ -12,7 +12,7 @@ const programs = [
     description: "We cover school fees and provide essential school materials to underprivileged children, ensuring every child has access to the tools of learning.",
     image: gallery1,
     donateLabel: "Support",
-    donateUrl: "https://donate.benevolenceislove.org/checkout/benevolenceisloved?rid=28329989",
+    donateUrl: "https://donate.benevolenceislove.org/checkout/benevolenceislove?rid=28329989",
   },
   {
     icon: Dumbbell,
@@ -21,7 +21,7 @@ const programs = [
     description: "Our structured sports programs help children develop confidence, discipline, teamwork, and leadership skills while discovering their talents.",
     image: gallery4,
     donateLabel: "Get Involved",
-    donateUrl: "https://donate.benevolenceislove.org/checkout/benevolenceisloved?rid=28330036",
+    donateUrl: "https://donate.benevolenceislove.org/checkout/benevolenceislove?rid=28330036",
   },
   {
     icon: Users,
@@ -30,7 +30,7 @@ const programs = [
     description: "We extend support to parents through workshops, ensuring a holistic approach to empowerment and community development.",
     image: gallery6,
     donateLabel: "Donate",
-    donateUrl: "https://donate.benevolenceislove.org/checkout/benevolenceisloved?rid=28330088",
+    donateUrl: "https://donate.benevolenceislove.org/checkout/benevolenceislove?rid=28330088",
   },
   {
     icon: Monitor,
@@ -39,7 +39,7 @@ const programs = [
     description: "We introduce children to robotics, electronics, and coding, equipping them with future-ready digital skills and fostering innovation and creativity.",
     image: gallery7,
     donateLabel: "Buy Us Tools",
-    donateUrl: "https://donate.benevolenceislove.org/checkout/benevolenceisloved?rid=28330108",
+    donateUrl: "https://donate.benevolenceislove.org/checkout/benevolenceislove?rid=28330108",
   },
 ];
 
