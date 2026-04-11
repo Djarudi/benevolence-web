@@ -4,7 +4,7 @@ import gallery13 from "@/assets/gallery-13.jpg";
 import galleryImg1 from "@/assets/gallery-7.jpg";
 import galleryImg2 from "@/assets/gallery-8.jpg";
 import galleryImg3 from "@/assets/gallery-9.jpg";
-
+  
 const stats = [
   { icon: Users, value: "500+", label: "Children Supported" },
   { icon: BookOpen, value: "100+", label: "School Fees Paid" },
@@ -104,7 +104,7 @@ const Index = () => (
         <p className="text-primary-foreground/80 text-lg max-w-2xl mx-auto mb-8">
           Every contribution matters. Together, we can ensure every child has access to education and the chance to thrive.
         </p>
-        <a href="https://donate.benevolenceislove.org/checkout/benevolenceisloved?rid=28330123&is_free_trial=true" target="_blank" rel="noopener noreferrer" className="inline-flex px-8 py-3 rounded-lg bg-primary-foreground text-foreground font-semibold hover:opacity-90 transition-opacity text-lg">
+        <a href="https://donate.benevolenceislove.org/checkout/benevolenceislove?rid=28330123&is_free_trial=true" target="_blank" rel="noopener noreferrer" className="inline-flex px-8 py-3 rounded-lg bg-primary-foreground text-foreground font-semibold hover:opacity-90 transition-opacity text-lg">
           Donate Now
         </a>
       </div>
