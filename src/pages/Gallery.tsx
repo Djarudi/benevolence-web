@@ -4,6 +4,8 @@ import gallery1 from "@/assets/gallery-1.jpg";
 import gallery2 from "@/assets/gallery-2.jpg";
 import gallery3 from "@/assets/gallery-3.jpg";
 import gallery4 from "@/assets/gallery-4.jpg";
+import gallery5 from "@/assets/gallery-5.jpg";
+import gallery6 from "@/assets/gallery-1.png";
 import gallery7 from "@/assets/gallery-7.jpg";
 import gallery8 from "@/assets/gallery-8.jpg";
 import gallery9 from "@/assets/gallery-9.jpg";
@@ -11,13 +13,15 @@ import gallery10 from "@/assets/gallery-10.jpg";
 import gallery11 from "@/assets/gallery-11.jpg";
 import gallery12 from "@/assets/gallery-12.jpg";
 import gallery13 from "@/assets/gallery-13.jpg";
-import gallery20 from "@/assets/gallery-20.jpg";
+import gallery14 from "@/assets/gallery-2.png";
 
 const images = [
   { src: gallery1, alt: "Children in classroom" },
   { src: gallery2, alt: "Children reading under a tree" },
   { src: gallery3, alt: "Award ceremony" },
   { src: gallery4, alt: "Children on playground" },
+  { src: gallery5, alt: "Community event" },
+  { src: gallery6, alt: "Community Giving" },
   { src: gallery7, alt: "Children with school supplies at blackboard" },
   { src: gallery8, alt: "Child graduation ceremony" },
   { src: gallery9, alt: "Children playing sports" },
@@ -25,7 +29,7 @@ const images = [
   { src: gallery11, alt: "Children with notebooks at blackboard" },
   { src: gallery12, alt: "Children receiving gift bags" },
   { src: gallery13, alt: "Community group photo with children" },
-  { src: gallery20, alt: "Community event" },
+  { src: gallery14, alt: "Community Thanks Giving" },
 ];
 
 const Gallery = () => {
