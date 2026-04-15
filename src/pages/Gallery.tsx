@@ -50,31 +50,21 @@ const Gallery = () => {
 
       <section className="py-20 bg-card">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 auto-rows-[200px] md:auto-rows-[250px]">
-            {images.map((img, i) => {
-              // Create a mosaic pattern: some items span 2 cols or 2 rows
-              const spanClass =
-                i % 7 === 0
-                  ? "col-span-1 row-span-2"
-                  : i % 7 === 3 || i % 7 === 4
-                  ? "col-span-2 row-span-1"
-                  : "col-span-1 row-span-1";
-
-              return (
-                <button
-                  key={i}
-                  onClick={() => setLightbox(i)}
-                  className={`overflow-hidden rounded-xl group focus:outline-none focus:ring-2 focus:ring-primary ${spanClass}`}
-                >
-                  <img
-                    src={img.src}
-                    alt={img.alt}
-                    loading="lazy"
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                  />
-                </button>
-              );
-            })}
+          <div className="columns-2 md:columns-3 lg:columns-4 gap-3 space-y-3">
+            {images.map((img, i) => (
+              <button
+                key={i}
+                onClick={() => setLightbox(i)}
+                className="overflow-hidden rounded-xl group focus:outline-none focus:ring-2 focus:ring-primary break-inside-avoid block w-full"
+              >
+                <img
+                  src={img.src}
+                  alt={img.alt}
+                  loading="lazy"
+                  className="w-full h-auto rounded-xl group-hover:scale-105 transition-transform duration-500"
+                />
+              </button>
+            ))}
           </div>
         </div>
       </section>
