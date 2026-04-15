@@ -40,7 +40,7 @@ const Index = () => ( <div> {/* Hero */}
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground mb-6">About Us</h2>
           <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-            At Benevolence is Love, we are driven by a powerful vision of positive change. Our organization is dedicated to empowering vulnerable families by providing essential education support to their children. With a firm belief in the transformative power of education, we strive to break the cycle of poverty and create a brighter future for generations to come.
+            At Benevolence is Love, we are driven by a powerful vision of positive change. Our organization is dedicated to empowering vulnerable families by providing essential education support to their children. With a firm belief in the transformative power of education, we strive to break the cycle of poverty and create a brighter future for generations to come. Our comprehensive programs not only cover school fees but also extend to workshop for parents, ensuring a holistic approach to empowerment. Together, we’re fostering a community where every Child's potential is realized, and families thrive. Join us in making a lasting impact, one empowered child at a time.
           </p>
           <Link to="/about" className="inline-flex items-center gap-2 text-primary font-semibold hover:underline">
             Read More →
