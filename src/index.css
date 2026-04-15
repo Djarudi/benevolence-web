@@ -61,7 +61,7 @@
     --teal: 165 44% 29%;
     --teal-foreground: 0 0% 100%;
 
-    --hero-overlay: linear-gradient(135deg, hsla(242, 54%, 51%, 0.75), hsla(265, 100%, 83%, 0.6));
+    --hero-overlay: linear-gradient(135deg, hsla(242, 54%, 51%, 0.50), hsla(265, 100%, 83%, 0.7));
     --section-gradient: linear-gradient(180deg, hsl(276, 100%, 96%) 60%, hsl(265, 100%, 83%) 100%);
   }
 
