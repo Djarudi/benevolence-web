@@ -13,8 +13,8 @@ const Index = () => ( <div> {/* Hero */}
         <img src={gallery13} alt="Community group photo with children" width={1920} height={1080} className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute inset-0 hero-gradient" /> 
         <div className="relative z-10 text-center px-4 max-w-3xl animate-fade-up"> 
-            <h1 className="font-heading text-4xl md:text-6xl font-bold text-primary-foreground mb-6 leading-tight text-balance"> Empowering Children, Transforming Futures </h1> 
-            <p className="text-primary-foreground/90 text-lg md:text-xl mb-8 max-w-2xl mx-auto"> At Benevolence is Love, we break the cycle of poverty through education and sports, one empowered child at a time. </p> 
+            <h1 className="font-heading text-4xl md:text-6xl font-bold text-primary-foreground mb-6 leading-tight text-balance"> Welcome to Benevolence is Love </h1> 
+            <p className="text-primary-foreground/90 text-lg md:text-xl mb-8 max-w-2xl mx-auto"> Breaking barriers and building futures through education, we create safe spaces where every child can learn, grow, and dream beyond limitations. </p> 
             <div className="flex flex-col sm:flex-row gap-4 justify-center"> 
                 <Link to="/programs" className="px-8 py-3 rounded-lg bg-primary text-primary-foreground font-semibold hover:opacity-90 transition-opacity text-lg"> Get Involved </Link> 
                 <Link to="/about" className="px-8 py-3 rounded-lg bg-primary-foreground/20 text-primary-foreground font-semibold backdrop-blur-sm hover:bg-primary-foreground/30 transition-colors text-lg border border-primary-foreground/30"> Learn More </Link>
