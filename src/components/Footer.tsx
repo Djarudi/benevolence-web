@@ -52,7 +52,13 @@ const Footer = () => (
       </div>
 
       <div className="border-t border-primary-foreground/10 mt-8 pt-6 text-center text-xs text-primary-foreground/50">
-        © {new Date().getFullYear()} Benevolence is Love. All rights reserved.
+        <p>© {new Date().getFullYear()} Benevolence is Love. All rights reserved.</p>
+        <p className="mt-2">
+          Developed by{" "}
+          <a href="https://cwanda.site" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors underline">
+            cwanda.site
+          </a>
+        </p>
       </div>
     </div>
   </footer>
