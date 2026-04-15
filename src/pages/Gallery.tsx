@@ -51,15 +51,13 @@ const Gallery = () => {
               <button
                 key={i}
                 onClick={() => setLightbox(i)}
-                className="overflow-hidden rounded-xl group focus:outline-none focus:ring-2 focus:ring-primary"
+                className="overflow-hidden rounded-xl group focus:outline-none focus:ring-2 focus:ring-primary border border-border bg-muted/30"
               >
                 <img
                   src={img.src}
                   alt={img.alt}
                   loading="lazy"
-                  width={800}
-                  height={600}
-                  className="w-full h-64 object-contain bg-muted/50 group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-auto object-contain group-hover:scale-105 transition-transform duration-500"
                 />
               </button>
             ))}
