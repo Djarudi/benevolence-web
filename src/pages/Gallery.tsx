@@ -6,8 +6,8 @@ import gallery3 from "@/assets/gallery-3.jpg";
 import gallery4 from "@/assets/gallery-4.jpg";
 import gallery5 from "@/assets/gallery-5.jpg";
 // import gallery6 from "@/assets/gallery-6.jpg";
-import gallery14 from "@/assets/gallery-1.png";
-import gallery15 from "@/assets/gallery-2.png";
+// import gallery14 from "@/assets/gallery-1.png";
+// import gallery15 from "@/assets/gallery-2.png";
 import gallery7 from "@/assets/gallery-7.jpg";
 import gallery8 from "@/assets/gallery-8.jpg";
 import gallery9 from "@/assets/gallery-9.jpg";
@@ -23,8 +23,8 @@ const images = [
   { src: gallery4, alt: "Children on playground" },
   { src: gallery5, alt: "Students walking together" },
   // { src: gallery6, alt: "Community gathering" },
-   { src: gallery14, alt: "Community gatherings" },
-   { src: gallery15, alt: "Community meet up in rwanda" },
+   // { src: gallery14, alt: "Community gatherings" },
+   // { src: gallery15, alt: "Community meet up in rwanda" },
   { src: gallery7, alt: "Children with school supplies at blackboard" },
   { src: gallery8, alt: "Child graduation ceremony" },
   { src: gallery9, alt: "Children playing sports" },
