@@ -59,7 +59,7 @@ const Gallery = () => {
                   loading="lazy"
                   width={800}
                   height={600}
-                  className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-64 object-contain bg-muted/50 group-hover:scale-105 transition-transform duration-500"
                 />
               </button>
             ))}
