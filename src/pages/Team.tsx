@@ -62,11 +62,11 @@ const Team = () => (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
           {teamMembers.map((member) => (
             <div key={member.name} className="bg-secondary/50 rounded-2xl p-6 text-center border border-border hover:shadow-md transition-shadow">
-              <div className="w-28 h-28 rounded-full overflow-hidden mx-auto mb-4">
+              <div className="w-28 h-28 rounded-full overflow-hidden mx-auto mb-4 bg-muted flex items-center justify-center">
                 <img
                   src={member.image}
                   alt={member.name}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain"
                   loading="lazy"
                 />
               </div>
