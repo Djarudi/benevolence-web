@@ -55,8 +55,8 @@ const Contact = () => {
                   <Mail className="text-primary mt-1 shrink-0" size={24} />
                   <div>
                     <h4 className="font-semibold text-foreground">Email</h4>
-                    <a href="mailto:benevolenceislove13@gmail.com" className="text-muted-foreground text-sm hover:text-primary transition-colors">
-                      benevolenceislove13@gmail.com
+                    <a href="mailto:info@benevolenceislove.org" className="text-muted-foreground text-sm hover:text-primary transition-colors">
+                      info@benevolenceislove.org
                     </a>
                   </div>
                 </div>

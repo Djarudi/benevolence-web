@@ -94,8 +94,8 @@ const Footer = () => {
               <ul className="space-y-1 text-sm text-primary-foreground/70">
                 <li>Kigali, Rwanda</li>
                 <li>
-                  <a href="mailto:benevolenceislove13@gmail.com" className="hover:text-primary transition-colors">
-                    benevolenceislove13@gmail.com
+                  <a href="mailto:info@benevolenceislove.org" className="hover:text-primary transition-colors">
+                    info@benevolenceislove.org
                   </a>
                 </li>
               </ul>
