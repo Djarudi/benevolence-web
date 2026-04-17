@@ -1,3 +1,5 @@
+import oresteImg from "@/assets/team-oreste-ishimwe.png";
+
 const teamMembers = [
   {
     name: "Djarudi Habimana",
@@ -35,8 +37,13 @@ const teamMembers = [
     image: "https://i.ibb.co/hxQMQRnN/image.png",
   },
   {
-    name: "Marie Doris Kirezi Gasasira",
+    name: "Oreste Ishimwe",
     role: "Finance and Administration Officer",
+    image: oresteImg,
+  },
+  {
+    name: "Marie Doris Kirezi Gasasira",
+    role: "Member",
     image: "https://i.ibb.co/j9WYDq0r/image.png",
   },
   {
