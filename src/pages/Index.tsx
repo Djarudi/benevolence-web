@@ -4,7 +4,7 @@ import gallery13 from "@/assets/gallery-13.jpg";
 import galleryImg1 from "@/assets/gallery-7.jpg"; 
 import galleryImg2 from "@/assets/gallery-8.jpg"; 
 import galleryImg3 from "@/assets/gallery-9.jpg"; 
-const stats = [ { icon: Users, value: "500+", label: "Children Supported" }, 
+const stats = [ { icon: Users, value: "200+", label: "Children Supported" }, 
                { icon: BookOpen, value: "100+", label: "School Fees Paid" },
                { icon: Trophy, value: "10+", label: "Sports Programs" }, 
                { icon: Heart, value: "50+", label: "Volunteers" }, ]; 
