@@ -59,6 +59,16 @@ const Donate = () => (
 
     <section className="py-20 bg-card">
       <div className="container mx-auto px-4">
+        <div className="text-center mb-10">
+          <a
+            href="https://donate.benevolenceislove.org/posts/buy-book-for-kid-156008905?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-8 py-3 rounded-lg bg-primary text-primary-foreground font-semibold hover:opacity-90 transition-opacity"
+          >
+            Buy A book for one kid!
+          </a>
+        </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
           {programs.map((program) => (
             <div
