@@ -58,7 +58,7 @@ const Donate = () => (
     </section>
 
     <section className="py-20 bg-card">
-      <div className="container">
+      <div className="container max-w-xl mx-auto mt-16 items-center">
         <a
             href="https://donate.benevolenceislove.org/posts/buy-book-for-kid-156008905?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link"
             target="_blank"
