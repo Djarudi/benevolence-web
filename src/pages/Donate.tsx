@@ -54,6 +54,14 @@ const Donate = () => (
           Your generosity changes lives. Choose a program to support and help
           us empower communities.
         </p>
+         <a
+            href="https://donate.benevolenceislove.org/posts/buy-book-for-kid-156008905?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-8 py-3 rounded-lg bg-primary text-primary-foreground font-semibold hover:opacity-90 transition-opacity"
+          >
+            Buy A book for one kid!
+          </a>
       </div>
     </section>
 
