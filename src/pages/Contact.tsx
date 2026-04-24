@@ -1,7 +1,23 @@
 import { useState, FormEvent } from "react";
 import { Mail, MapPin, Phone, Send } from "lucide-react";
+import emailjs from "@emailjs/browser";
 import { useToast } from "@/hooks/use-toast";
 import { supabase } from "@/integrations/supabase/client";
+
+const EMAILJS_SERVICE_ID = "service_3jro9ll";
+const EMAILJS_TEMPLATE_ID = "template_6n1i1ht";
+const EMAILJS_PUBLIC_KEY = "dba6ACesxlKtHRPVE";
+
+const formatCurrentTime = () => {
+  const now = new Date();
+  const hours = now.getHours();
+  const minutes = now.getMinutes().toString().padStart(2, "0");
+  const ampm = hours >= 12 ? "PM" : "AM";
+  const hour12 = hours % 12 === 0 ? 12 : hours % 12;
+  const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+  const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  return `${hour12}:${minutes} ${ampm} ${days[now.getDay()]} ${now.getDate()} ${months[now.getMonth()]} ${now.getFullYear()}`;
+};
 
 const Contact = () => {
   const { toast } = useToast();
@@ -12,12 +28,24 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
     try {
-      const { error } = await supabase.from("contact_submissions").insert({
+      await emailjs.send(
+        EMAILJS_SERVICE_ID,
+        EMAILJS_TEMPLATE_ID,
+        {
+          name: form.name,
+          email: form.email,
+          message: form.message,
+          currentTime: formatCurrentTime(),
+        },
+        { publicKey: EMAILJS_PUBLIC_KEY }
+      );
+
+      await supabase.from("contact_submissions").insert({
         name: form.name,
         email: form.email,
         message: form.message,
       });
-      if (error) throw error;
+
       toast({ title: "Message sent!", description: "Thank you for reaching out. We'll get back to you soon." });
       setForm({ name: "", email: "", message: "" });
     } catch {
