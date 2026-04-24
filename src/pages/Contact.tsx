@@ -33,9 +33,18 @@ const Contact = () => {
         EMAILJS_TEMPLATE_ID,
         {
           name: form.name,
+          from_name: form.name,
+          user_name: form.name,
           email: form.email,
+          from_email: form.email,
+          user_email: form.email,
+          reply_to: form.email,
+          phone: form.phone,
+          user_phone: form.phone,
+          subject: form.subject,
           message: form.message,
           currentTime: formatCurrentTime(),
+          time: formatCurrentTime(),
         },
         { publicKey: EMAILJS_PUBLIC_KEY }
       );
