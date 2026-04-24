@@ -28,12 +28,24 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
     try {
-      const { error } = await supabase.from("contact_submissions").insert({
+      await emailjs.send(
+        EMAILJS_SERVICE_ID,
+        EMAILJS_TEMPLATE_ID,
+        {
+          name: form.name,
+          email: form.email,
+          message: form.message,
+          currentTime: formatCurrentTime(),
+        },
+        { publicKey: EMAILJS_PUBLIC_KEY }
+      );
+
+      await supabase.from("contact_submissions").insert({
         name: form.name,
         email: form.email,
         message: form.message,
       });
-      if (error) throw error;
+
       toast({ title: "Message sent!", description: "Thank you for reaching out. We'll get back to you soon." });
       setForm({ name: "", email: "", message: "" });
     } catch {
