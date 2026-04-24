@@ -1,7 +1,23 @@
 import { useState, FormEvent } from "react";
 import { Mail, MapPin, Phone, Send } from "lucide-react";
+import emailjs from "@emailjs/browser";
 import { useToast } from "@/hooks/use-toast";
 import { supabase } from "@/integrations/supabase/client";
+
+const EMAILJS_SERVICE_ID = "service_3jro9ll";
+const EMAILJS_TEMPLATE_ID = "template_6n1i1ht";
+const EMAILJS_PUBLIC_KEY = "dba6ACesxlKtHRPVE";
+
+const formatCurrentTime = () => {
+  const now = new Date();
+  const hours = now.getHours();
+  const minutes = now.getMinutes().toString().padStart(2, "0");
+  const ampm = hours >= 12 ? "PM" : "AM";
+  const hour12 = hours % 12 === 0 ? 12 : hours % 12;
+  const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+  const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  return `${hour12}:${minutes} ${ampm} ${days[now.getDay()]} ${now.getDate()} ${months[now.getMonth()]} ${now.getFullYear()}`;
+};
 
 const Contact = () => {
   const { toast } = useToast();
