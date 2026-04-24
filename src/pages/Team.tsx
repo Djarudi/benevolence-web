@@ -1,4 +1,4 @@
-import oresteImg from "@/assets/team-oreste-ishimwe.png";
+import oresteImg from "@/assets/team-oreste-ishimwe.jpg";
 
 const teamMembers = [
   {
