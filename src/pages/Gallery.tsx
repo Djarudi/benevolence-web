@@ -16,6 +16,15 @@ import gallery13 from "@/assets/gallery-13.jpg";
 import gallery14 from "@/assets/gallery-2.png";
 import gallery15 from "@/assets/Change_Makers.png";
 import gallery16 from "@/assets/gallery-17.jpg";
+import gallery18 from "@/assets/gallery-18.jpg.asset.json";
+import gallery19 from "@/assets/gallery-19.jpg.asset.json";
+import gallery20 from "@/assets/gallery-20.jpg.asset.json";
+import gallery21 from "@/assets/gallery-21.jpg.asset.json";
+import gallery22 from "@/assets/gallery-22.jpg.asset.json";
+import gallery23 from "@/assets/gallery-23.jpg.asset.json";
+import gallery24 from "@/assets/gallery-24.jpg.asset.json";
+import gallery25 from "@/assets/gallery-25.jpg.asset.json";
+import gallery26 from "@/assets/gallery-26.jpg.asset.json";
 
 
 const images = [
