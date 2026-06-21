@@ -16,6 +16,15 @@ import gallery13 from "@/assets/gallery-13.jpg";
 import gallery14 from "@/assets/gallery-2.png";
 import gallery15 from "@/assets/Change_Makers.png";
 import gallery16 from "@/assets/gallery-17.jpg";
+import gallery18 from "@/assets/gallery-18.jpg.asset.json";
+import gallery19 from "@/assets/gallery-19.jpg.asset.json";
+import gallery20 from "@/assets/gallery-20.jpg.asset.json";
+import gallery21 from "@/assets/gallery-21.jpg.asset.json";
+import gallery22 from "@/assets/gallery-22.jpg.asset.json";
+import gallery23 from "@/assets/gallery-23.jpg.asset.json";
+import gallery24 from "@/assets/gallery-24.jpg.asset.json";
+import gallery25 from "@/assets/gallery-25.jpg.asset.json";
+import gallery26 from "@/assets/gallery-26.jpg.asset.json";
 
 
 const images = [
@@ -35,6 +44,15 @@ const images = [
   { src: gallery14, alt: "Community Thanks Giving" },
   { src: gallery15, alt: "Community Thanks Giving" },
   { src: gallery16, alt: "Community Thanks Giving" },
+  { src: gallery18.url, alt: "Students reading in the library" },
+  { src: gallery19.url, alt: "Students engaged in a classroom session" },
+  { src: gallery20.url, alt: "Facilitator leading a reading session" },
+  { src: gallery21.url, alt: "Student in school uniform" },
+  { src: gallery22.url, alt: "Student reading aloud in class" },
+  { src: gallery23.url, alt: "Young child reading a book" },
+  { src: gallery24.url, alt: "Child reading at a desk" },
+  { src: gallery25.url, alt: "Students reading together" },
+  { src: gallery26.url, alt: "Empowering Minds Through Reading group photo" },
 ];
 
 const Gallery = () => {
