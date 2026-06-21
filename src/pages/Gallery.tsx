@@ -44,6 +44,15 @@ const images = [
   { src: gallery14, alt: "Community Thanks Giving" },
   { src: gallery15, alt: "Community Thanks Giving" },
   { src: gallery16, alt: "Community Thanks Giving" },
+  { src: gallery18.url, alt: "Students reading in the library" },
+  { src: gallery19.url, alt: "Students engaged in a classroom session" },
+  { src: gallery20.url, alt: "Facilitator leading a reading session" },
+  { src: gallery21.url, alt: "Student in school uniform" },
+  { src: gallery22.url, alt: "Student reading aloud in class" },
+  { src: gallery23.url, alt: "Young child reading a book" },
+  { src: gallery24.url, alt: "Child reading at a desk" },
+  { src: gallery25.url, alt: "Students reading together" },
+  { src: gallery26.url, alt: "Empowering Minds Through Reading group photo" },
 ];
 
 const Gallery = () => {
