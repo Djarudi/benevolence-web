@@ -16,13 +16,13 @@ const About = () => (
     <section className="py-20 bg-card">
       <div className="container mx-auto px-4 max-w-4xl">
         <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-          Benevolence Is Love is a community-based organization dedicated to empowering vulnerable children to grow, learn, and thrive. We believe every child deserves a safe space to explore their potential through education and sports.
+          Benevolence is Love is a youth-led organisation committed to expanding educational opportunities for vulnerable children and empowering young people to build brighter futures for themselves and their communities.
         </p>
         <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-          Our programs combine academic support and structured sports activities, helping children develop confidence, discipline, teamwork, and leadership skills. We work closely with schools, communities, and local partners to ensure that every child has the opportunity to learn, play, and build a brighter future.
+          Our programs combine academic support, digital skills training, and parent engagement, helping children develop confidence, curiosity, and the tools they need for a successful future. We work closely with schools, communities, and local partners to ensure every child has the opportunity to learn, grow, and thrive.
         </p>
         <p className="text-lg text-muted-foreground leading-relaxed">
-          At BIL, we measure success not only in grades or medals but in smiles, personal growth, and the positive changes we see in each child's life.
+          At BIL, we measure success not only in grades and skills but in smiles, personal growth, and the positive changes we see in each child's life.
         </p>
       </div>
     </section>
