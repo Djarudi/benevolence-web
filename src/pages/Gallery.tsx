@@ -36,7 +36,7 @@ const images = [
   { src: gallery6, alt: "Community Giving" },
   { src: gallery7, alt: "Children with school supplies at blackboard" },
   { src: gallery8, alt: "Child graduation ceremony" },
-  { src: gallery9, alt: "Children playing sports" },
+  { src: gallery9, alt: "Children in group activity" },
   { src: gallery10, alt: "Group photo with children and books" },
   { src: gallery11, alt: "Children with notebooks at blackboard" },
   { src: gallery12, alt: "Children receiving gift bags" },

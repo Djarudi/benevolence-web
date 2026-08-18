@@ -41,7 +41,7 @@ const Footer = () => {
               <Heart className="text-primary" size={24} /> Benevolence is Love
             </h3>
             <p className="text-primary-foreground/70 max-w-md text-sm leading-relaxed">
-              Empowering vulnerable children through education and sports, nurturing their academic growth, physical well-being, character, and life skills.
+              Expanding educational opportunities for vulnerable children and empowering young people to build brighter futures for themselves and their communities.
             </p>
             <div className="flex gap-3 mt-4">
               <a href="https://www.facebook.com/benevolenceislove" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full bg-primary-foreground/10 hover:bg-primary/30 transition-colors">

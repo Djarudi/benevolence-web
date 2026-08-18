@@ -18,7 +18,7 @@ const teamMembers = [
   },
   {
     name: "Fabrice Iradukunda",
-    role: "Sports & Talents Development Coordinator",
+    role: "Talent & Community Engagement Coordinator",
     image: "https://i.ibb.co/nswbytLH/image.png",
   },
   {
