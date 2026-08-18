@@ -1,6 +1,5 @@
-import { BookOpen, Dumbbell, Users, Monitor } from "lucide-react";
+import { BookOpen, Users, Monitor } from "lucide-react";
 import gallery1 from "@/assets/gallery-7.jpg";
-import gallery4 from "@/assets/gallery-9.jpg";
 import gallery6 from "@/assets/gallery-13.jpg";
 import gallery7 from "@/assets/gallery-20.jpg";
 
@@ -13,15 +12,6 @@ const programs = [
     image: gallery1,
     donateLabel: "Support",
     donateUrl: "https://donate.benevolenceislove.org/checkout/benevolenceislove?rid=28329989",
-  },
-  {
-    icon: Dumbbell,
-    title: "Sports & Talent Development",
-    price: "$8",
-    description: "Our structured sports programs help children develop confidence, discipline, teamwork, and leadership skills while discovering their talents.",
-    image: gallery4,
-    donateLabel: "Get Involved",
-    donateUrl: "https://donate.benevolenceislove.org/checkout/benevolenceislove?rid=28330036",
   },
   {
     icon: Users,

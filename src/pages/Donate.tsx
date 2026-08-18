@@ -1,4 +1,4 @@
-import { BookOpen, Dumbbell, Users, Monitor, Heart } from "lucide-react";
+import { BookOpen, Users, Monitor, Heart } from "lucide-react";
 
 const programs = [
   {
@@ -10,16 +10,6 @@ const programs = [
     donateLabel: "Support Education",
     donateUrl:
       "https://donate.benevolenceislove.org/checkout/benevolenceislove?rid=28329989",
-  },
-  {
-    icon: Dumbbell,
-    title: "Sports & Talent Development",
-    price: "$8",
-    description:
-      "Our structured sports programs help children develop confidence, discipline, teamwork, and leadership skills while discovering their talents.",
-    donateLabel: "Get Involved",
-    donateUrl:
-      "https://donate.benevolenceislove.org/checkout/benevolenceislove?rid=28330036",
   },
   {
     icon: Users,
@@ -69,7 +59,7 @@ const Donate = () => (
             Buy A book for one kid!
           </a>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
           {programs.map((program) => (
             <div
               key={program.title}

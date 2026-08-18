@@ -16,13 +16,13 @@ const About = () => (
     <section className="py-20 bg-card">
       <div className="container mx-auto px-4 max-w-4xl">
         <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-          Benevolence Is Love is a community-based organization dedicated to empowering vulnerable children to grow, learn, and thrive. We believe every child deserves a safe space to explore their potential through education and sports.
+          Benevolence is Love is a youth-led organisation committed to expanding educational opportunities for vulnerable children and empowering young people to build brighter futures for themselves and their communities.
         </p>
         <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-          Our programs combine academic support and structured sports activities, helping children develop confidence, discipline, teamwork, and leadership skills. We work closely with schools, communities, and local partners to ensure that every child has the opportunity to learn, play, and build a brighter future.
+          Our programs combine academic support, digital skills training, and parent engagement, helping children develop confidence, curiosity, and the tools they need for a successful future. We work closely with schools, communities, and local partners to ensure every child has the opportunity to learn, grow, and thrive.
         </p>
         <p className="text-lg text-muted-foreground leading-relaxed">
-          At BIL, we measure success not only in grades or medals but in smiles, personal growth, and the positive changes we see in each child's life.
+          At BIL, we measure success not only in grades and skills but in smiles, personal growth, and the positive changes we see in each child's life.
         </p>
       </div>
     </section>
@@ -35,14 +35,14 @@ const About = () => (
             <Target className="mx-auto mb-4 text-primary" size={40} />
             <h3 className="font-heading text-xl font-bold text-foreground mb-3">Our Mission</h3>
             <p className="text-muted-foreground text-sm leading-relaxed">
-              To empower vulnerable children through education and sports, nurturing their academic growth, physical well-being, character, and life skills so they can become confident, resilient, and responsible members of society.
+              To expand educational opportunities for vulnerable children and empower young people with knowledge, digital skills, and confidence so they can build brighter futures for themselves and their communities.
             </p>
           </div>
           <div className="bg-card rounded-2xl p-8 shadow-sm border border-border text-center">
             <Eye className="mx-auto mb-4 text-accent" size={40} />
             <h3 className="font-heading text-xl font-bold text-foreground mb-3">Our Vision</h3>
             <p className="text-muted-foreground text-sm leading-relaxed">
-              A future where every child has equal access to learning and sports opportunities, enabling them to reach their full potential and thrive in life with hope, confidence, and resilience.
+              A future where every young person has equal access to quality education and the opportunity to reach their full potential with hope, confidence, and resilience.
             </p>
           </div>
           <div className="bg-card rounded-2xl p-8 shadow-sm border border-border text-center">
