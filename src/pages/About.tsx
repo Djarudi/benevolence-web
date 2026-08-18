@@ -35,14 +35,14 @@ const About = () => (
             <Target className="mx-auto mb-4 text-primary" size={40} />
             <h3 className="font-heading text-xl font-bold text-foreground mb-3">Our Mission</h3>
             <p className="text-muted-foreground text-sm leading-relaxed">
-              To empower vulnerable children through education and sports, nurturing their academic growth, physical well-being, character, and life skills so they can become confident, resilient, and responsible members of society.
+              To expand educational opportunities for vulnerable children and empower young people with knowledge, digital skills, and confidence so they can build brighter futures for themselves and their communities.
             </p>
           </div>
           <div className="bg-card rounded-2xl p-8 shadow-sm border border-border text-center">
             <Eye className="mx-auto mb-4 text-accent" size={40} />
             <h3 className="font-heading text-xl font-bold text-foreground mb-3">Our Vision</h3>
             <p className="text-muted-foreground text-sm leading-relaxed">
-              A future where every child has equal access to learning and sports opportunities, enabling them to reach their full potential and thrive in life with hope, confidence, and resilience.
+              A future where every young person has equal access to quality education and the opportunity to reach their full potential with hope, confidence, and resilience.
             </p>
           </div>
           <div className="bg-card rounded-2xl p-8 shadow-sm border border-border text-center">
