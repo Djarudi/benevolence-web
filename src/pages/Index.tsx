@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom"; 
-import { Heart, BookOpen, Users, Trophy } from "lucide-react"; 
+import { Heart, BookOpen, Users, Lightbulb } from "lucide-react"; 
 import gallery13 from "@/assets/gallery-13.jpg"; 
 import galleryImg1 from "@/assets/gallery-7.jpg"; 
 import galleryImg2 from "@/assets/gallery-8.jpg"; 
 import galleryImg3 from "@/assets/gallery-9.jpg"; 
 const stats = [ { icon: Users, value: "200+", label: "Children Supported" }, 
                { icon: BookOpen, value: "100+", label: "School Fees Paid" },
-               { icon: Trophy, value: "3+", label: "Sports Programs" }, 
+               { icon: Lightbulb, value: "3+", label: "Digital Skills" }, 
                { icon: Heart, value: "50+", label: "Volunteers" }, ]; 
 const Index = () => ( <div> {/* Hero */} 
     <section className="relative h-[90vh] min-h-[600px] flex items-center justify-center overflow-hidden"> 
