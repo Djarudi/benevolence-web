@@ -1,4 +1,5 @@
 import oresteImg from "@/assets/team-oreste-ishimwe.jpg";
+import donDivinImg from "@/assets/team-don-divin-bayubahe.png.asset.json";
 
 const teamMembers = [
   {
