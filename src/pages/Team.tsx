@@ -48,6 +48,11 @@ const teamMembers = [
     image: oresteImg,
   },
   {
+    name: "Don Divin Bayubahe",
+    role: "Digital Innovation Officer",
+    image: donDivinImg,
+  },
+  {
     name: "Marie Doris Kirezi Gasasira",
     role: "Member",
     image: "https://i.ibb.co/j9WYDq0r/image.png",
