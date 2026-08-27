@@ -1,4 +1,5 @@
 import oresteImg from "@/assets/team-oreste-ishimwe.jpg";
+import donDivinImg from "@/assets/team-don-divin-bayubahe.png.asset.json";
 
 const teamMembers = [
   {
@@ -45,6 +46,11 @@ const teamMembers = [
     name: "Oreste Ishimwe",
     role: "Finance and Administration Officer",
     image: oresteImg,
+  },
+  {
+    name: "Don Divin Bayubahe",
+    role: "Digital Innovation Officer",
+    image: donDivinImg.url,
   },
   {
     name: "Marie Doris Kirezi Gasasira",
