@@ -50,7 +50,7 @@ const teamMembers = [
   {
     name: "Don Divin Bayubahe",
     role: "Digital Innovation Officer",
-    image: donDivinImg,
+    image: donDivinImg.url,
   },
   {
     name: "Marie Doris Kirezi Gasasira",
