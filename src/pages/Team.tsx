@@ -1,5 +1,6 @@
 import oresteImg from "@/assets/team-oreste-ishimwe.jpg";
 import donDivinImg from "@/assets/team-don-divin-bayubahe.png";
+import marieDorisImg from "@/assets/team-marie-doris.jpg";
 
 const teamMembers = [
   {
@@ -54,8 +55,8 @@ const teamMembers = [
   },
   {
     name: "Marie Doris Kirezi Gasasira",
-    role: "Member",
-    image: "https://i.ibb.co/j9WYDq0r/image.png",
+    role: "Gender & Child Protection Officer",
+    image: marieDorisImg,
   },
   {
     name: "Galille Mugenzi Kayumba",
