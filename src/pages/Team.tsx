@@ -29,21 +29,6 @@ const teamMembers = [
     image: "https://i.ibb.co/Z6bB9h0S/image.png",
   },
   {
-    name: "Patient Asiimwe",
-    role: "Member",
-    image: "https://i.ibb.co/G4v3hFpK/image.png",
-  },
-  {
-    name: "Shaffy Amir Manzi",
-    role: "Member",
-    image: "https://i.ibb.co/hxQMQRnN/image.png",
-  },
-  {
-    name: "Turikumana Isaie",
-    role: "ICT & Digital Skills Coordinator",
-    image: "https://isaie.cwanda.site/src/isaie.png",
-  },
-  {
     name: "Oreste Ishimwe",
     role: "Finance and Administration Officer",
     image: oresteImg,
