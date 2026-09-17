@@ -4,6 +4,11 @@ import { Heart, Facebook, Instagram, Linkedin, Youtube, Send } from "lucide-reac
 import { supabase } from "@/integrations/supabase/client";
 import { useToast } from "@/hooks/use-toast";
 
+// TODO(Djarudi): paste the RGB registration number and TIN here and this line
+// appears in the footer automatically. Leave empty and nothing is rendered.
+// Example: "RGB Reg. No. 000/RGB/NGO/2024  ·  TIN 000000000"
+const REGISTRATION = "";
+
 const Footer = () => {
   const { toast } = useToast();
   const [email, setEmail] = useState("");
@@ -53,7 +58,7 @@ const Footer = () => {
               <a href="https://www.youtube.com/@djarudih1374" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full bg-primary-foreground/10 hover:bg-primary/30 transition-colors">
                 <Youtube size={18} />
               </a>
-              <a href="https://rw.linkedin.com/in/benevolenceislove" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full bg-primary-foreground/10 hover:bg-primary/30 transition-colors">
+              <a href="https://www.linkedin.com/company/benevolence-is-love" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full bg-primary-foreground/10 hover:bg-primary/30 transition-colors">
                 <Linkedin size={18} />
               </a>
             </div>
@@ -94,6 +99,11 @@ const Footer = () => {
               <ul className="space-y-1 text-sm text-primary-foreground/70">
                 <li>Kigali, Rwanda</li>
                 <li>
+                  <a href="tel:+250786374297" className="hover:text-primary transition-colors">
+                    +250 786 374 297
+                  </a>
+                </li>
+                <li>
                   <a href="mailto:info@benevolenceislove.org" className="hover:text-primary transition-colors">
                     info@benevolenceislove.org
                   </a>
@@ -104,6 +114,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-primary-foreground/10 mt-8 pt-6 text-center text-xs text-primary-foreground/50">
+          {REGISTRATION && <p className="mb-2">{REGISTRATION}</p>}
           <p>© {new Date().getFullYear()} Benevolence is Love. All rights reserved.</p>
           <p className="mt-2">
             Developed by{" "}

@@ -101,7 +101,9 @@ const Contact = () => {
                   <Phone className="text-primary mt-1 shrink-0" size={24} />
                   <div>
                     <h4 className="font-semibold text-foreground">Phone</h4>
-                    <p className="text-muted-foreground text-sm">Contact us via social media</p>
+                    <a href="tel:+250786374297" className="text-muted-foreground text-sm hover:text-primary transition-colors">
+                      +250 786 374 297
+                    </a>
                   </div>
                 </div>
               </div>
