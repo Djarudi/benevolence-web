@@ -28,6 +28,7 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
     try {
+      const sentAt = formatCurrentTime();
       await emailjs.send(
         EMAILJS_SERVICE_ID,
         EMAILJS_TEMPLATE_ID,
@@ -43,22 +44,27 @@ const Contact = () => {
           user_phone: form.phone,
           subject: form.subject,
           message: form.message,
-          currentTime: formatCurrentTime(),
-          time: formatCurrentTime(),
+          currentTime: sentAt,
+          time: sentAt,
         },
         { publicKey: EMAILJS_PUBLIC_KEY }
       );
 
-      await supabase.from("contact_submissions").insert({
+      const { error: saveError } = await supabase.from("contact_submissions").insert({
         name: form.name,
         email: form.email,
         message: form.message,
       });
 
-      toast({ title: "Message sent!", description: "Thank you for reaching out. We'll get back to you soon." });
+      if (saveError) {
+        console.error("Message sent but could not be saved:", saveError.message);
+      }
+
+      toast({ title: "Message sent!", description: "Thank you for reaching out. We'll get back to you soon.", duration: 5000 });
       setForm({ name: "", email: "", phone: "", subject: "", message: "" });
-    } catch {
-      toast({ title: "Error", description: "Something went wrong. Please try again.", variant: "destructive" });
+    } catch (error) {
+      console.error("Message delivery failed:", error);
+      toast({ title: "Message not sent", description: "Please try again, or email info@benevolenceislove.org directly.", variant: "destructive", duration: 5000 });
     } finally {
       setLoading(false);
     }
