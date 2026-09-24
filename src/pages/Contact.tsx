@@ -27,8 +27,22 @@ const Contact = () => {
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
     setLoading(true);
+    const sentAt = formatCurrentTime();
+    let saved = false;
+
     try {
-      const sentAt = formatCurrentTime();
+      const { error: saveError } = await supabase.from("contact_submissions").insert({
+        name: form.name,
+        email: form.email,
+        message: form.message,
+      });
+
+      if (saveError) {
+        console.error("Message could not be saved:", saveError.message);
+      } else {
+        saved = true;
+      }
+
       await emailjs.send(
         EMAILJS_SERVICE_ID,
         EMAILJS_TEMPLATE_ID,
@@ -50,21 +64,16 @@ const Contact = () => {
         { publicKey: EMAILJS_PUBLIC_KEY }
       );
 
-      const { error: saveError } = await supabase.from("contact_submissions").insert({
-        name: form.name,
-        email: form.email,
-        message: form.message,
-      });
-
-      if (saveError) {
-        console.error("Message sent but could not be saved:", saveError.message);
-      }
-
       toast({ title: "Message sent!", description: "Thank you for reaching out. We'll get back to you soon.", duration: 5000 });
       setForm({ name: "", email: "", phone: "", subject: "", message: "" });
     } catch (error) {
       console.error("Message delivery failed:", error);
-      toast({ title: "Message not sent", description: "Please try again, or email info@benevolenceislove.org directly.", variant: "destructive", duration: 5000 });
+      if (saved) {
+        toast({ title: "Message received", description: "Thank you. Your message was saved successfully.", duration: 5000 });
+        setForm({ name: "", email: "", phone: "", subject: "", message: "" });
+      } else {
+        toast({ title: "Message not sent", description: "Please email info@benevolenceislove.org directly.", variant: "destructive", duration: 5000 });
+      }
     } finally {
       setLoading(false);
     }
