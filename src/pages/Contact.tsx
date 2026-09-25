@@ -4,7 +4,7 @@ import emailjs from "@emailjs/browser";
 import { useToast } from "@/hooks/use-toast";
 import { supabase } from "@/integrations/supabase/client";
 
-const EMAILJS_SERVICE_ID = "service_3jro9ll";
+const EMAILJS_SERVICE_ID = "service_jyh7z5p";
 const EMAILJS_TEMPLATE_ID = "template_6n1i1ht";
 const EMAILJS_PUBLIC_KEY = "dba6ACesxlKtHRPVE";
 
