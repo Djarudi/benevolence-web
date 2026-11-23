@@ -1,4 +1,5 @@
 import oresteImg from "@/assets/team-oreste-ishimwe.jpg";
+import julesImg from "@/assets/team-jules-ntakirutimana.png";
 import donDivinImg from "@/assets/team-don-divin-bayubahe.png";
 import marieDorisImg from "@/assets/team-marie-doris.jpg";
 
@@ -16,7 +17,7 @@ const teamMembers = [
   {
     name: "Jules Ntakirutimana",
     role: "Secretary General",
-    image: "https://i.ibb.co/xS65CKhq/image.png",
+    image: julesImg,
   },
   {
     name: "Fabrice Iradukunda",
