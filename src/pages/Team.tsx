@@ -2,6 +2,7 @@ import oresteImg from "@/assets/team-oreste-ishimwe.jpg";
 import julesImg from "@/assets/team-jules-ntakirutimana.png";
 import donDivinImg from "@/assets/team-don-divin-bayubahe.png";
 import marieDorisImg from "@/assets/team-marie-doris.jpg";
+import dylanImg from "@/assets/team-dylan-mugenga.png";
 
 const teamMembers = [
   {
@@ -12,7 +13,7 @@ const teamMembers = [
   {
     name: "Dylan Robin Nziza Mugenga",
     role: "Deputy Director",
-    image: "https://i.ibb.co/svbNWpxy/AA5-Ab-UDNv-Zc-H9o-Q5-ZZa-K2-D6i9-3x5j1-OKMe6m-D5-my-Ezubyrzgf-Cb-AIuv-Fs-YRg-d-C7c-UXNr3nd4-H4g339-M6-SP8.jpg",
+    image: dylanImg,
   },
   {
     name: "Jules Ntakirutimana",
