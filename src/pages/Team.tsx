@@ -3,12 +3,13 @@ import julesImg from "@/assets/team-jules-ntakirutimana.png";
 import donDivinImg from "@/assets/team-don-divin-bayubahe.png";
 import marieDorisImg from "@/assets/team-marie-doris.jpg";
 import dylanImg from "@/assets/team-dylan-mugenga.png";
+import djarudiImg from "@/assets/team-djarudi-habimana.jpg";
 
 const teamMembers = [
   {
     name: "Djarudi Habimana",
     role: "Founder and Executive Director",
-    image: "https://i.ibb.co/qLFjk0j8/1000280269.jpg",
+    image: djarudiImg,
   },
   {
     name: "Dylan Robin Nziza Mugenga",
